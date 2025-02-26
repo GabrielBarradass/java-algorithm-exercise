@@ -14,7 +14,6 @@ public class volumeDaEsfera {
                 System.out.println("Erro: Entrada inválida, não pode colocar número negativo.");
             } else {
                 double raio = Math.pow((diametro / 2) , 3);
-                //double PI = Math.PI;
                 double volume = ((4.0/3.0) * Math.PI * raio);
 
                 System.out.printf("O volume da esfera é : %.2f%n", volume);
